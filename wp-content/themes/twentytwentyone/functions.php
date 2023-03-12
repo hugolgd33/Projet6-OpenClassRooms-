@@ -654,3 +654,15 @@ if ( ! function_exists( 'wp_get_list_item_separator' ) ) :
 		return __( ', ', 'twentytwentyone' );
 	}
 endif;
+function my_wp_nav_menu_args( $args = '' ) {
+if( is_user_logged_in() ) {
+// Logged in menu to display
+$args['menu'] = 6;
+ 
+} else {
+// Non-logged-in menu to display
+$args['menu'] = 3;
+}
+return $args;
+}
+add_filter( 'wp_nav_menu_args', 'my_wp_nav_menu_args' );
