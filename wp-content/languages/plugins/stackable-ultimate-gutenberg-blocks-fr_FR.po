@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the Plugins - Stackable &#8211; Page Builder Gutenberg Blocks - Stable (latest release) package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2023-03-07 14:12:02+0000\n"
+"PO-Revision-Date: 2023-03-13 10:05:36+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -133,6 +133,14 @@ msgstr "Chiffres"
 #: dist/translation-strings.php:600 dist/editor_blocks.js:2
 msgid "Label Top Margin"
 msgstr "Libellé marge externe du haut"
+
+#: dist/translation-strings.php:599 dist/editor_blocks.js:2
+msgid "Box Gap"
+msgstr "Espacement dans la boîte"
+
+#: dist/translation-strings.php:598 dist/editor_blocks.js:2
+msgid "Enable Double Digit"
+msgstr "Activer l’affichage à 2 chiffres"
 
 #: dist/translation-strings.php:597 dist/editor_blocks.js:2
 msgid "Restart Countdown After no. of Hours"
